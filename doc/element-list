@@ -1,0 +1,6 @@
+application
+application.classes
+application.controllers
+application.managers
+application.models
+application.views

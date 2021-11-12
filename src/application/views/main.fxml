@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutY="-2.0" prefHeight="156.0" prefWidth="500.0" style="-fx-background-color: #014f86;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="188.0" layoutY="75.0" text="e-commerce" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets top="50.0" />
+         </padding>
+         <font>
+            <Font name="SansSerif Bold" size="40.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Label>
+      <Label contentDisplay="TOP" layoutX="264.0" layoutY="7.0" prefHeight="44.0" prefWidth="137.0" text="Federico Canali" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+         <font>
+            <Font name="SansSerif Bold" size="18.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Label>
+      <Button fx:id="bntLogin" layoutX="16.0" layoutY="347.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="468.0" style="-fx-background-color: #99d98c; -fx-background-radius: 25;" text="Login" AnchorPane.bottomAnchor="121.8" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="bntSignUp" layoutX="16.0" layoutY="454.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="468.0" style="-fx-background-color: #89c2d9; -fx-background-radius: 25;" text="Sign up" AnchorPane.bottomAnchor="14.8" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="16.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <HBox alignment="CENTER" layoutX="4.0" layoutY="219.0" prefHeight="31.0" prefWidth="494.0" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="219.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="44.0" prefWidth="137.0" text="Username:" textAlignment="CENTER" textOverrun="CLIP">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Label>
+            <TextField fx:id="textFieldUsername" prefHeight="26.0" prefWidth="261.0" promptText="Insert userame" style="-fx-background-color: GREY;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="96.0" layoutY="271.0" prefHeight="31.0" prefWidth="400.0" AnchorPane.bottomAnchor="198.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="271.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" contentDisplay="TOP" prefHeight="44.0" prefWidth="137.0" text="Password:" textAlignment="CENTER" textOverrun="CLIP">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Label>
+            <PasswordField fx:id="passwordField" prefHeight="26.0" prefWidth="261.0" promptText="Insert password" style="-fx-background-color: GREY;" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
