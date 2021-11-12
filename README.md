@@ -38,3 +38,6 @@ Once an <b>administrator</b> accesses the e-commerce, he can:
 <h2>Documentation</h2>
 
 The documentation of the Project (JavaDoc) is found in assignment_2\assignment_2\doc.
+
+<h2>Screenshots</h2>
+![administrator_page](/img/administrator_page.png)
