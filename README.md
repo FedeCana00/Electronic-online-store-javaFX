@@ -1,6 +1,6 @@
 # Electronic-online-store-javaFX
 
-<h2>Installation</h2>
+<h2>💻Installation</h2>
 
 To install and run the software use an IDE suitable for Java code (Eclipse [https://www.eclipse.org/downloads/, NetBeans] (https://www.eclipse.org/downloads/,%20NetBeans) <https : //netbeans.apache.org/download/index.html>, IntelliJ <https://www.jetbrains.com/idea/download/#section=windows>, etc.). When you have installed the IDE you prefer, you can run the program inside it by opening the java project in this folder and clicking the "Run" button.
 
@@ -10,7 +10,7 @@ In order to use the project it is necessary to configure the environment for Jav
 ```
 replacing the part in quotes with your path.
 
-<h2>Use</h2>
+<h2>👨‍💻Use</h2>
 
 Once the program has been run, a window will appear containing fields for logging in and a button for logging in. There are three accounts by default:
 
@@ -35,11 +35,11 @@ Once an <b>administrator</b> accesses the e-commerce, he can:
 - Add new employees;
 - Log out of e-commerce.
 
-<h2>Documentation</h2>
+<h2>📃Documentation</h2>
 
 The documentation of the Project (JavaDoc) is found in assignment_2\assignment_2\doc.
 
-<h2>Screenshots</h2>
+<h2>📸Screenshots</h2>
 <br>
 <img src="/img/login_page.png"/>
 <img src="/img/sign_up_page.png"/>
